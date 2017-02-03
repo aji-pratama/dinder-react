@@ -7,6 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "firebase": "^3.6.8",
+    "firebase-nest": "^0.1.2",
+    "mobx": "^2.7.0",
+    "mobx-firebase-store": "^0.1.19",
+    "mobx-react": "^3.5.8",
     "native-base": "^0.5.22",
     "react": "~15.4.0-rc.4",
     "react-native": "0.41.0",

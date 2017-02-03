@@ -3,6 +3,11 @@ import { Drawer, View } from 'native-base'
 import { Navigator } from 'react-native'
 import SideMenu from './components/sideMenu'
 
+import SettingStore from './stores/settingsStore'
+import SplashScene from './scenes/splashScene'
+
+import theme from './theme/base-theme'
+
 export default class AppContainer extends Component {
   constructor(props) {
     super(props)
